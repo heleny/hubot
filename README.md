@@ -208,4 +208,4 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app, I dec
     % npm install
     % start hubot
 ```
-- If all the settings are correct, hubot should appear in the hipchat chat room.  
+- When all the settings are correct, hubot should automatically appear in the hipchat chat room.  
