@@ -1,5 +1,5 @@
 {
-  "name": "hanna",
+  "name": "hubot",
   "version": "0.0.0",
   "private": true,
   "author": "Helen Yang",
@@ -18,7 +18,12 @@
     "hubot-rules": "^0.1.0",
     "hubot-scripts": "^2.5.16",
     "hubot-shipit": "^0.1.1",
-    "hubot-youtube": "^0.1.2"
+    "hubot-youtube": "^0.1.2",
+    "hubot-plusplus": "1.0.x", 
+    "hubot-victory": ">= 0.0.0",
+    "hubot-thank-you": "0.0.3", 
+    "hubot-standup-alarm": "*", 
+    "hubot-mute": "*"
   },
   "engines": {
     "node": "0.10.x"
