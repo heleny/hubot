@@ -174,33 +174,33 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
     % sudo install -g yo generator-hubot
 ```
 4. Go to /usr/local/
-
+```
     % mkdir hubot
     % cd hubot
     % yo hubot
-
+```
    See more details at [Hubot][hubot].
 5. I'm using hipchat adapter, so I need to create a hipchat user with @hubot as the handler 
 6. Once hubot is created, you could create a script to include Hipchat specific environment variables 
-
+```
     % HUBOT_HIPCHAT_ROOMS
     % HUBOT_HIPCHAT_TOKEN
     % HUBOT_HIPCHAT_PASSWORD
     % HUBOT_HIPCHAT_JID
     % HUBOT_HIPCHAT_NAME
-
+```
 [yeoman]: http://yeoman.io/
 [hubot]: https://github.com/github/hubot/blob/master/docs/README.md
 6. This blog post is helpful `http://kvz.io/blog/2012/11/20/installing-hubot-on-ubuntu/`
 7. Once all the configs are set, you can
-
+```
     % start hubot
-    or 
+    ||   
     % stop hubot
-
+```
 8. If you need to add more hubot-scripts or external-scripts, modify package.json and hubot-scripts.json or external-scripts.json, and then 
-
+```
     % npm install
     % start hubot
-
+```
 9. If all the settings are correct, hubot should appear in your hipchat chat room.  
