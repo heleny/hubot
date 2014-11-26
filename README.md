@@ -209,3 +209,7 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app, I dec
     % start hubot
 ```
 - When all the settings are correct, hubot should automatically appear in the hipchat chat room.  
+- For debugging, check out the log
+```
+    % logtail /var/log/hubot.log
+```
