@@ -195,9 +195,7 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
 7. Once all the configs are set, you can
 
     % start hubot
-
     or 
-
     % stop hubot
 
 8. If you need to add more hubot-scripts or external-scripts, modify package.json and hubot-scripts.json or external-scripts.json, and then 
