@@ -163,9 +163,10 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
 # How to deploy Hubot to Ubuntu
 
 - Intall npm and node on an AWS EC2 instance
+```
     % sudo apt-get install -y nodejs
     % sudo apt-get install npm
-  
+``` 
    Make sure it's not a 'pre' version which seems to cause lots of build errors.
 - Install its dependencies, such as build-essential, libssl-dev, apache2-utils, libexpat1-dev
 ```
