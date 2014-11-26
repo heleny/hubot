@@ -194,13 +194,14 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
 ```
 [yeoman]: http://yeoman.io/
 [hubot]: https://github.com/github/hubot/blob/master/docs/README.md
-- This blog post is helpful `http://kvz.io/blog/2012/11/20/installing-hubot-on-ubuntu/`
+- This blog post is helpful [installing hubot on ubuntu]
 - Once all the configs are set, you can
 ```
     % start hubot
     ||   
     % stop hubot
 ```
+[installing hubot on ubuntu]: http://kvz.io/blog/2012/11/20/installing-hubot-on-ubuntu/
 - If you need to add more hubot-scripts or external-scripts, modify package.json and hubot-scripts.json or external-scripts.json, and then 
 ```
     % npm install
