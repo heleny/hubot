@@ -155,7 +155,8 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if you're having issues.
 
-
+***
+***
 # Updated: 
 Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i decided to move my hubot to the AWS cloud. 
 # How to deploy Hubot to Ubuntu
