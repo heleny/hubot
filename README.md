@@ -165,14 +165,14 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
   
    Make sure it's not a 'pre' version which seems to cause lots of build errors.
 2. Install its dependencies, such as build-essential, libssl-dev, apache2-utils, libexpat1-dev
-
+```
     % sudo apt-get install -y build-essential
     % sudo apt-get install g++ curl libssl-dev apache2-utils
-
+```
 3. Install hubot [Yeoman][yeoman] generator.
-
+```
     % sudo install -g yo generator-hubot
-
+```
 4. Go to /usr/local/
 
     % mkdir hubot
