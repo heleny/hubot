@@ -158,7 +158,8 @@ You may want to get comfortable with `heroku logs` and `heroku restart` if you'r
 
 ___
 # Updated: 
-Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i decided to move my hubot to the AWS cloud. 
+Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app, I decided to move my hubot to the [AWS cloud]. 
+[AWS cloud]: http://aws.amazon.com/
 
 # How to deploy Hubot to Ubuntu
 
@@ -183,9 +184,9 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
     % cd hubot
     % yo hubot
 ```
-   See more details at [Hubot][hubot].
-- I'm using hipchat adapter, so I need to create a hipchat user with @hubot as the handler 
-- Once hubot is created, you could create a script to include Hipchat specific environment variables 
+   Find more details at [Hubot][hubot].
+- When using a hipchat adapter, need to create a hipchat user with @hubot as the handler 
+- Once hubot is created, create a script to include Hipchat specific environment variables 
 ```
     % HUBOT_HIPCHAT_ROOMS
     % HUBOT_HIPCHAT_TOKEN
@@ -195,8 +196,8 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
 ```
 [yeoman]: http://yeoman.io/
 [hubot]: https://github.com/github/hubot/blob/master/docs/README.md
-- This blog post is helpful [installing hubot on ubuntu]
-- Once all the configs are set, you can
+  This blog post is helpful [installing hubot on ubuntu].
+- Once all the configs are set, start or stop hubot:  
 ```
     % start hubot
     % stop hubot
@@ -207,4 +208,4 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
     % npm install
     % start hubot
 ```
-- If all the settings are correct, hubot should appear in your hipchat chat room.  
+- If all the settings are correct, hubot should appear in the hipchat chat room.  
