@@ -198,7 +198,6 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
 - Once all the configs are set, you can
 ```
     % start hubot
-    ||   
     % stop hubot
 ```
 [installing hubot on ubuntu]: http://kvz.io/blog/2012/11/20/installing-hubot-on-ubuntu/
