@@ -159,29 +159,29 @@ You may want to get comfortable with `heroku logs` and `heroku restart` if you'r
 # Updated: 
 Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i decided to move my hubot to the AWS cloud. 
 # How to deploy Hubot to Ubuntu
-1. Intall npm and node on an AWS EC2 instance
+- Intall npm and node on an AWS EC2 instance
     % sudo apt-get install -y nodejs
     % sudo apt-get install npm
   
    Make sure it's not a 'pre' version which seems to cause lots of build errors.
-2. Install its dependencies, such as build-essential, libssl-dev, apache2-utils, libexpat1-dev
+- Install its dependencies, such as build-essential, libssl-dev, apache2-utils, libexpat1-dev
 ```
     % sudo apt-get install -y build-essential
     % sudo apt-get install g++ curl libssl-dev apache2-utils
 ```
-3. Install hubot [Yeoman][yeoman] generator.
+- Install hubot [Yeoman][yeoman] generator.
 ```
     % sudo install -g yo generator-hubot
 ```
-4. Go to /usr/local/
+- Go to /usr/local/
 ```
     % mkdir hubot
     % cd hubot
     % yo hubot
 ```
    See more details at [Hubot][hubot].
-5. I'm using hipchat adapter, so I need to create a hipchat user with @hubot as the handler 
-6. Once hubot is created, you could create a script to include Hipchat specific environment variables 
+- I'm using hipchat adapter, so I need to create a hipchat user with @hubot as the handler 
+- Once hubot is created, you could create a script to include Hipchat specific environment variables 
 ```
     % HUBOT_HIPCHAT_ROOMS
     % HUBOT_HIPCHAT_TOKEN
@@ -191,16 +191,16 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app and i 
 ```
 [yeoman]: http://yeoman.io/
 [hubot]: https://github.com/github/hubot/blob/master/docs/README.md
-6. This blog post is helpful `http://kvz.io/blog/2012/11/20/installing-hubot-on-ubuntu/`
-7. Once all the configs are set, you can
+- This blog post is helpful `http://kvz.io/blog/2012/11/20/installing-hubot-on-ubuntu/`
+- Once all the configs are set, you can
 ```
     % start hubot
     ||   
     % stop hubot
 ```
-8. If you need to add more hubot-scripts or external-scripts, modify package.json and hubot-scripts.json or external-scripts.json, and then 
+- If you need to add more hubot-scripts or external-scripts, modify package.json and hubot-scripts.json or external-scripts.json, and then 
 ```
     % npm install
     % start hubot
 ```
-9. If all the settings are correct, hubot should appear in your hipchat chat room.  
+- If all the settings are correct, hubot should appear in your hipchat chat room.  
