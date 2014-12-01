@@ -150,5 +150,6 @@ Initially, I hosted my hubot on heroku.  When Heroku kept crashing my app, I dec
 - When all the settings are correct, hubot should automatically appear in the hipchat chat room.  
 - For debugging, check out the log
 ```
+    % sudo apt-get install logtail
     % logtail /var/log/hubot.log
 ```
