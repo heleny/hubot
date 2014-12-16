@@ -33,7 +33,9 @@
     "phantom": "0.5.2", 
     "cheerio": "0.12.1", 
     "ntwitter" : "https://github.com/sebhildebrandt/ntwitter/tarball/master", 
-    "twit": "1.1.6"
+    "twit": "1.1.6", 
+    "hubot-ttc-alerts": ">= 1.0.0", 
+    "request": "*"
   },
   "engines": {
     "node": "0.10.x"

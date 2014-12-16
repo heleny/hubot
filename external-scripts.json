@@ -14,5 +14,6 @@
   "hubot-victory", 
   "hubot-thank-you", 
   "hubot-standup-alarm", 
-  "hubot-mute"
+  "hubot-mute", 
+  "hubot-ttc-alerts"
 ]
